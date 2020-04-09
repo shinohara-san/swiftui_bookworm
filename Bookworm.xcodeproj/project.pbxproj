@@ -14,6 +14,11 @@
 		95AFB5A1243E9F250084E0BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95AFB5A0243E9F250084E0BB /* Assets.xcassets */; };
 		95AFB5A4243E9F250084E0BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95AFB5A3243E9F250084E0BB /* Preview Assets.xcassets */; };
 		95AFB5A7243E9F250084E0BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95AFB5A5243E9F250084E0BB /* LaunchScreen.storyboard */; };
+		95AFB5AF243EA3F60084E0BB /* note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AFB5AE243EA3F60084E0BB /* note.swift */; };
+		95AFB5B1243ED0E40084E0BB /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AFB5B0243ED0E40084E0BB /* AddBookView.swift */; };
+		95E5267E243ED81C00A0EAF8 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E5267D243ED81C00A0EAF8 /* RatingView.swift */; };
+		95E52680243EEA6300A0EAF8 /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E5267F243EEA6300A0EAF8 /* EmojiRatingView.swift */; };
+		95E52682243EEDC700A0EAF8 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E52681243EEDC700A0EAF8 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		95AFB5A3243E9F250084E0BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95AFB5A6243E9F250084E0BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95AFB5A8243E9F250084E0BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95AFB5AE243EA3F60084E0BB /* note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = note.swift; sourceTree = "<group>"; };
+		95AFB5B0243ED0E40084E0BB /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
+		95E5267D243ED81C00A0EAF8 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		95E5267F243EEA6300A0EAF8 /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
+		95E52681243EEDC700A0EAF8 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +71,16 @@
 				95AFB597243E9F210084E0BB /* AppDelegate.swift */,
 				95AFB599243E9F210084E0BB /* SceneDelegate.swift */,
 				95AFB59E243E9F210084E0BB /* ContentView.swift */,
+				95AFB5B0243ED0E40084E0BB /* AddBookView.swift */,
+				95E5267D243ED81C00A0EAF8 /* RatingView.swift */,
+				95E5267F243EEA6300A0EAF8 /* EmojiRatingView.swift */,
+				95E52681243EEDC700A0EAF8 /* DetailView.swift */,
 				95AFB5A0243E9F250084E0BB /* Assets.xcassets */,
 				95AFB5A5243E9F250084E0BB /* LaunchScreen.storyboard */,
 				95AFB5A8243E9F250084E0BB /* Info.plist */,
 				95AFB59B243E9F210084E0BB /* Bookworm.xcdatamodeld */,
 				95AFB5A2243E9F250084E0BB /* Preview Content */,
+				95AFB5AE243EA3F60084E0BB /* note.swift */,
 			);
 			path = Bookworm;
 			sourceTree = "<group>";
@@ -150,9 +165,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				95AFB598243E9F210084E0BB /* AppDelegate.swift in Sources */,
+				95E52682243EEDC700A0EAF8 /* DetailView.swift in Sources */,
+				95AFB5B1243ED0E40084E0BB /* AddBookView.swift in Sources */,
+				95AFB5AF243EA3F60084E0BB /* note.swift in Sources */,
 				95AFB59D243E9F210084E0BB /* Bookworm.xcdatamodeld in Sources */,
+				95E52680243EEA6300A0EAF8 /* EmojiRatingView.swift in Sources */,
 				95AFB59F243E9F210084E0BB /* ContentView.swift in Sources */,
 				95AFB59A243E9F210084E0BB /* SceneDelegate.swift in Sources */,
+				95E5267E243ED81C00A0EAF8 /* RatingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
